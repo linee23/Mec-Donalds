@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body {
+    background-color: black; /* Fundo preto */
+    color: white; /* Texto branco para contraste */
+    text-align: center; /* Centraliza o texto */
+}
+
+.logo-mc {
+    width: 80px; /* Logo menor e redonda */
+    border-radius: 50%; /* Logo redonda */
+
+}
+
+.container-buttons {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    
+    
+    background-color: yellow; /* Fundo amarelo para botões */
+    color: black; /* Texto preto */
+    border: none;
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer;
+    padding: 10px;
+    width: 110px;
+}
+
+button:hover{
+     opacity: 0.8;
+}
+
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+p{
+    color: white;
+
+}
+
+li{
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.item-price{
+    font-weight: bold;
+    color: red;
+}
+
+
+.green-price {
+    color: yellow; /* Cor verde para preços com desconto */
+}
+
+
+#total-display {
+    color: purple; /* Cor roxa */
+    font-size: 20px; /* Tamanho da fonte maior */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
